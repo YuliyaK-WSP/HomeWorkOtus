@@ -24,7 +24,7 @@ public class Program
             {
                 Console.WriteLine("Вы ввели не корректное значение");
                 continue;
-            }
+            } 
             else if (val < 1 || val > 6)
             {
                 Console.WriteLine("Значение должно быть от 1 до 6");
