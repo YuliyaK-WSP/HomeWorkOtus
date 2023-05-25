@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus1/WorkOtus1/WorkOtus1.csproj": {}
+    "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus2/HomeWorkOtus.csproj": {}
   },
   "projects": {
-    "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus1/WorkOtus1/WorkOtus1.csproj": {
+    "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus2/HomeWorkOtus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus1/WorkOtus1/WorkOtus1.csproj",
-        "projectName": "WorkOtus1",
-        "projectPath": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus1/WorkOtus1/WorkOtus1.csproj",
+        "projectUniqueName": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus2/HomeWorkOtus.csproj",
+        "projectName": "HomeWorkOtus",
+        "projectPath": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus2/HomeWorkOtus.csproj",
         "packagesPath": "/Users/yulia/.nuget/packages/",
-        "outputPath": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus1/WorkOtus1/obj/",
+        "outputPath": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yulia/.nuget/NuGet/NuGet.Config"
