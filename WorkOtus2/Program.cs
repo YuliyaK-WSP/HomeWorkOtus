@@ -2,56 +2,44 @@
 using System.Collections;
 class Program
 {
-
+	const int elem = 1000000;
     private static void Main(string[] args)
     {
-        PrintList();
-        PrintListArray();
-        PrintLinkedList();
+		List<int> list = new List<int>(elem);
+		ArrayList arrayList = new ArrayList();
+		var linkedList = new LinkedList<int>();
+		Print(list);
+		Print(arrayList);
+		Print(linkedList);
     }
-    public static void PrintList()
-    {
-        Stopwatch stopwatch = new Stopwatch();
+	public static void Print(object list)
+	{
+		Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
-        List<int> list = new List<int>(1000000);
-
-        for (int i = 0; i < 1000000; i++)
+		for (int i = 0; i < elem; i++)
         {
-            list.Add(i);
-            //Console.WriteLine($"{list[i]}");     
+			switch(list)
+			{
+				case List<int>:
+					((List<int>)list).Add(i);
+				break;
+				case ArrayList:
+					((ArrayList)list).Add(i);
+				break;
+				case LinkedList<int>:
+					((LinkedList<int>)list).AddLast(i);
+				break;
+			}
+			if(i % 777 == 0)
+					{
+						Console.WriteLine($"Число {i} делится без остатка на 777");
+					}
         }
-        SearchPrint(list);
+		Console.WriteLine($"Выполнение операции {list.GetType().Name}: {stopwatch.ElapsedMilliseconds} m/s");
+		SearchPrint(list);
         stopwatch.Stop();
-        Console.WriteLine($"Выполнение операции List: {stopwatch.ElapsedMilliseconds} m/s");
-    }
-    public static void PrintListArray()
-    {
-        Stopwatch stopwatch = new Stopwatch();
-        stopwatch.Start();
-        ArrayList arrayList = new ArrayList();
-        for (int i = 0; i < 1000000; i++)
-        {
-            arrayList.Add(i);
-            //Console.WriteLine($"{arrayList[i]}");     
-        }
-        SearchPrint(arrayList);
-        stopwatch.Stop();
-        Console.WriteLine($"Выполнение операции ArrayList: {stopwatch.ElapsedMilliseconds} m/s");
-    }
-    public static void PrintLinkedList()
-    {
-        Stopwatch stopwatch = new Stopwatch();
-        stopwatch.Start();
-        var linkedList = new LinkedList<int>();
-        for (int i = 0; i < 1000000; i++)
-        {
-            linkedList.AddLast(i);
-            //Console.WriteLine($"{linkedList[i]}");     
-        }
-        SearchPrint(linkedList);
-        stopwatch.Stop();
-        Console.WriteLine($"Выполнение операции LinkedList: {stopwatch.ElapsedMilliseconds} m/s");
-    }
+	}
+	
     public static void SearchPrint(Object obj)
     {
         int search = 496753;
@@ -93,12 +81,5 @@ class Program
         }
         stopwatch.Stop();
         Console.WriteLine($"Выполнение операции {obj.GetType().Name} Search: {stopwatch.ElapsedMilliseconds} m/s");
-
-
-        /*if (obj.GetType() == typeof (List<int>))
-        {
-         Console.WriteLine($"Выполнение операции не возможно");
-        }
-        */
     }
 }
