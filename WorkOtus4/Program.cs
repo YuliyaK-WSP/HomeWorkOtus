@@ -17,9 +17,11 @@
 		// size = 0, Top = null
 		Console.WriteLine($"size = {s.Size}, Top = {(s.Top == null ? "null" : s.Top)}");
 		s.Pop();*/
-		var s = new Stack("a", "b", "c");
-		s.Merge(new Stack("1", "2", "3"));
+		//var s = new Stack("a", "b", "c");
+		//s.Merge(new Stack("1", "2", "3"));
 		// в стеке s теперь элементы - "a", "b", "c", "3", "2", "1" <- верхний
+		//Console.WriteLine($"size = {s.Size}, Top = '{s.Top}'");
+		var s = Stack.Concat(new Stack("a", "b", "c"), new Stack("1", "2", "3"), new Stack("А", "Б", "В"));
 		Console.WriteLine($"size = {s.Size}, Top = '{s.Top}'");
 	}
 }
@@ -54,10 +56,23 @@ class Stack
 			Add(par[i]);
 		}
 	}
+	public static Stack Concat(params Stack[] stk)
+	{
+		// 1. создать стек
+		//2. for
+		// merge
+		Stack stackMain = new Stack();
+		for (int i = 0; i < stk.Length; i++)
+		{
+			stackMain.Merge(stk[i]);
+		}
+		return stackMain;
+	}
 }
 
 static class StackExtensions
 {
+	
 	/// <summary>
 	/// Метод предназначен для перегрузки данных в обратном порядке из одного стека в другой 
 	/// </summary>
