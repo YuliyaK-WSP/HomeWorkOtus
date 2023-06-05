@@ -29,20 +29,17 @@ class Program
 		}
 		while (!ValuesABC(c));
 
-
 		D(a, b, c);
 	}
 	public static bool ValuesABC(double val)
 	{
 		try
 		{
-
 			if (val % 1 != 0)
 			{
 				throw new ValuesExseption();
 
 			}
-
 		}
 		catch (ValuesExseption e)
 		{
