@@ -69,11 +69,11 @@ class Stack
 		}
 		return stackMain;
 	}
+
 }
 // Дополнительное задание 1
 static class StackExtensions
 {
-	
 	/// <summary>
 	/// Метод предназначен для перегрузки данных в обратном порядке из одного стека в другой 
 	/// </summary>
@@ -87,3 +87,4 @@ static class StackExtensions
 		}
 	}
 }
+
