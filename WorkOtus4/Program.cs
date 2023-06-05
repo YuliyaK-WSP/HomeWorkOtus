@@ -59,9 +59,6 @@ class Stack
 	//Дополнительное задание 2 
 	public static Stack Concat(params Stack[] stk)
 	{
-		// 1. создать стек
-		//2. for
-		// merge
 		Stack stackMain = new Stack();
 		for (int i = 0; i < stk.Length; i++)
 		{
