@@ -56,6 +56,7 @@ class Stack
 			Add(par[i]);
 		}
 	}
+	//Дополнительное задание 2 
 	public static Stack Concat(params Stack[] stk)
 	{
 		// 1. создать стек
@@ -69,7 +70,7 @@ class Stack
 		return stackMain;
 	}
 }
-
+// Дополнительное задание 1
 static class StackExtensions
 {
 	
