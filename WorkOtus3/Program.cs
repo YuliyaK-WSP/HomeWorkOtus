@@ -149,7 +149,8 @@ class Program
 			}
 			catch (ValuesExseption e)
 			{
-				FormatData($"Значение параметра {val} должно быть целочисленным", Severity.Warning, valVar);
+				FormatData($"Значение параметра {val} должно быть целочисленным", Severity.Warning, valVar); 
+				
 			}
 			catch
 			{
