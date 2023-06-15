@@ -1,0 +1,15 @@
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.csproj.AssemblyReference.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.AssemblyInfoInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.AssemblyInfo.cs
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.csproj.CoreCompileInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/bin/Debug/net7.0/WorkOtus5
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/bin/Debug/net7.0/WorkOtus5.deps.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/bin/Debug/net7.0/WorkOtus5.runtimeconfig.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/bin/Debug/net7.0/WorkOtus5.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/bin/Debug/net7.0/WorkOtus5.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/refint/WorkOtus5.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/WorkOtus5.genruntimeconfig.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus5/obj/Debug/net7.0/ref/WorkOtus5.dll
