@@ -1,36 +1,29 @@
 ﻿internal partial class Program
 {
-	
+
 	private static void Main(string[] args)
 	{
 		// программа 1
 
-		// var venus = new { Name = "Venus", Order = 2, EquatorLength = 38026, Previous = (object)null };
-		// var earth = new { Name = "Earth", Order = 3, EquatorLength = 40075, Previous = venus };
-		// var mars = new { Name = "Mars", Order = 4, EquatorLength = 21344, Previous = earth };
-		// var venus2 = new { Name = "Venus", Order = 2, EquatorLength = 38026, Previous = mars };
+		// var planet = new { Name = "Venus", Order = 2, EquatorLength = 38026, Previous = (object)null };
+		// planet = new { Name = "Earth", Order = 3, EquatorLength = 40075, Previous = (object)planet };
+		// planet = new { Name = "Mars", Order = 4, EquatorLength = 21344, Previous = (object)planet };
+		// planet = new { Name = "Venus", Order = 2, EquatorLength = 38026, Previous = (object)planet };
 
-
-		// object[] planets = new object[]
-		// {
-		// 	Tuple.Create(venus.Name, venus.Order, venus.EquatorLength, venus.Previous),
-		// 	Tuple.Create(earth.Name, earth.Order, earth.EquatorLength, earth.Previous),
-		// 	Tuple.Create(mars.Name, mars.Order, mars.EquatorLength, mars.Previous),
-		// 	Tuple.Create(venus2.Name, venus2.Order, venus2.EquatorLength, venus2.Previous)
-		// };
-		// foreach (var planet in planets)
+		// while (planet.Previous != null)
 		// {
 		// 	Console.WriteLine(
-		// 					$"Name: {((dynamic)planet).Item1}, Order: {((dynamic)planet).Item2}," +
-		// 					 $"Equator Length: {((dynamic)planet).Item3}," +
-		// 					 $"Previous: {(((dynamic)planet).Item4 != null ? ((dynamic)planet).Item4.Name : "None")}," +
-		// 					 $"Equivalent to Venus: {((dynamic)planet).Item1 == "Venus" && ((dynamic)planet).Item2 == 2}"
-		// 					);
+		// 				$"Name: {((dynamic)planet).Name}, Order: {((dynamic)planet).Order}," +
+		// 				$"Equator Length: {((dynamic)planet).EquatorLength}," +
+		// 				$"Previous: {(((dynamic)planet).Previous != null ? ((dynamic)planet).Previous.Name : "None")}," +
+		// 				$"Equivalent to Venus: {((dynamic)planet).Name == "Venus" && ((dynamic)planet).Order == 2}"
+		// 				);
+		// 	planet = ((dynamic)planet).Previous;
 		// }
 
 
 		/// программа 2 
-		
+
 		// PlanetsCatalog catalog = new PlanetsCatalog();
 
 		// Console.WriteLine("Поиск планет:");
@@ -59,12 +52,14 @@
 			Console.WriteLine($"Порядковый номер от Солнца: {result.Item1}");
 			Console.WriteLine($"Экватор: {result.Item2}");
 		}
-	
+
 	}
 	// программа 3
 	public static void PrintPlanetDelegate(PlanetsCatalog catalog, string Name)
 	{
-		Func<string, string> defValidator = (string planetName) => catalog.counter % 3 == 0 ? "Вы спрашиваете слишком часто" : "";
+		//Func<string, string> defValidator = (string planetName) => catalog.counter % 3 == 0 ? "Вы спрашиваете слишком часто" : "";
+
+		Func<string, string> defValidator = (string planetName) => planetName == "Лимония" ? "Это запретная планета" : null;
 		var result = catalog.GetPlanet(Name, defValidator);
 		if (result.Item3 == "")
 		{
@@ -76,6 +71,6 @@
 			Console.WriteLine($"Порядковый номер от Солнца: {result.Item1}");
 			Console.WriteLine($"Экватор: {result.Item2}");
 		}
-	
+
 	}
 }
