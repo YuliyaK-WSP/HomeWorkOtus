@@ -1,0 +1,16 @@
+C:\Projects\WorkOtus9\WorkOtus9\bin\Debug\WorkOtus9.exe.config
+C:\Projects\WorkOtus9\WorkOtus9\bin\Debug\WorkOtus9.exe
+C:\Projects\WorkOtus9\WorkOtus9\bin\Debug\WorkOtus9.pdb
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.csproj.AssemblyReference.cache
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.csproj.SuggestedBindingRedirects.cache
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\MainWindow.g.cs
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\App.g.cs
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9_MarkupCompile.cache
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9_MarkupCompile.lref
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\MainWindow.baml
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.g.resources
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.Properties.Resources.resources
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.csproj.GenerateResource.cache
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.csproj.CoreCompileInputs.cache
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.exe
+C:\Projects\WorkOtus9\WorkOtus9\obj\Debug\WorkOtus9.pdb
