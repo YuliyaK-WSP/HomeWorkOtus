@@ -15,51 +15,57 @@ using System.Windows.Shapes;
 
 namespace WorkOtus9
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        ImageDownloader downloader;
-        Task downloadTask;
+	/// <summary>
+	/// Логика взаимодействия для MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window
+	{
+		ImageDownloader downloader;
+		Task downloadTask;
 
-        public MainWindow()
-        {
-            InitializeComponent();
+		public MainWindow()
+		{
+			InitializeComponent();
 
-            downloader = new ImageDownloader();
-            downloader.ImageStarted += DisplayMessage;
-            downloader.ImageCompleted += DisplayMessage;
-            downloader.Result += DisplayMessage;
-        }
+			downloader = new ImageDownloader();
+			downloader.ImageStarted += DisplayMessage;
+			downloader.ImageCompleted += DisplayMessage;
+			downloader.Result += DisplayMessage;
+		}
 
-        private void Save_Click(object sender, RoutedEventArgs e)
-        {
-           
-            string url = PathImage.Text;
-            string savePath = SavePath.Text;
-            //url = "https://img3.akspic.ru/crops/3/4/4/3/7/173443/173443-besplatnyj_minimalist-ubuntu-minimalizm-tsvetnoy-linkin_park-7680x4320.jpg";
-            //savePath = "C:/tst.jpg";
-            downloadTask = downloader.Download(url, savePath);
-        }
+		private void Save_Click(object sender, RoutedEventArgs e)
+		{
 
-        private void Open_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
+			string url = PathImage.Text;
+			string savePath = SavePath.Text;
+			//url = "https://img3.akspic.ru/crops/3/4/4/3/7/173443/173443-besplatnyj_minimalist-ubuntu-minimalizm-tsvetnoy-linkin_park-7680x4320.jpg";
+			//savePath = "C:/tst.jpg";
+			downloadTask = downloader.Download(url, savePath);
+		}
 
-        private void StateDownload_Click(object sender, RoutedEventArgs e)
-        {
-            txtInfo.Text = "Состояние загрузки картинки: " + downloadTask.IsCompleted;
-            //await Task.Delay(1000);
-        }
+		private void Open_Click(object sender, RoutedEventArgs e)
+		{
+			SaveFileDialog openFile = new SaveFileDialog();
+			openFile.Filter = "Image Files(*.JPG)|*.JPG|Image Files(*.BMP)|*.BMP|ImageFiles(*.GIF)|*.GIF|Image Files(*.PNG)|*.PNG|All files (*.*)|*.*";
+			if (openFile.ShowDialog() == true)
+			{
+				SavePath.Text = openFile.FileName;
+				return;
+			}
+		}
 
-        void DisplayMessage(string message)
-        {
-            txtInfo.Text = message;
-        }
+		private void StateDownload_Click(object sender, RoutedEventArgs e)
+		{
+			txtInfo.Text = "Состояние загрузки картинки: " + downloadTask.IsCompleted;
+			//await Task.Delay(1000);
+		}
 
-        /* async static Task MainWindow()
+		void DisplayMessage(string message)
+		{
+			txtInfo.Text = message;
+		}
+
+		/* async static Task MainWindow()
 {
 ImageDownloader downloader = new ImageDownloader();
 //downloader.OnImageStarted;
@@ -88,6 +94,6 @@ Environment.Exit(0);
 }*/
 
 
-        //static void DisplayMessage(string message) => Console.WriteLine(message);
-    }
+		//static void DisplayMessage(string message) => Console.WriteLine(message);
+	}
 }
