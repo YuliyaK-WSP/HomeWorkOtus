@@ -4,8 +4,6 @@ internal class Program
 	async static Task Main(string[] args)
 	{
 		ImageDownloader downloader = new ImageDownloader();
-		//downloader.OnImageStarted;
-		//downloader.OnImageCompleted;
 		downloader.ImageStarted += DisplayMessage;
 		downloader.ImageCompleted += DisplayMessage;
 		string url = "https://img3.akspic.ru/crops/3/4/4/3/7/173443/173443-besplatnyj_minimalist-ubuntu-minimalizm-tsvetnoy-linkin_park-7680x4320.jpg";		string savePath = "/Users/yulia/Desktop/bigimage.jpg";
