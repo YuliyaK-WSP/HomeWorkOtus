@@ -13,7 +13,6 @@ namespace WorkOtus12
         public Shop()
         {
             Items = new ObservableCollection<Item>();
-            
         }
 
         public void Add(Item item)

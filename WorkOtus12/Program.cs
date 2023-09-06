@@ -6,7 +6,8 @@ namespace WorkOtus12
 {
     internal class Program
     {
-		static int NextId = 0;
+        static int NextId = 0;
+
         static void Main(string[] args)
         {
             Shop shop = new Shop();
@@ -25,13 +26,9 @@ namespace WorkOtus12
                 switch (keyInfo.Key)
                 {
                     case ConsoleKey.A:
-						NextId++;
+                        NextId++;
                         // Генерация нового товара с текущей датой и временем
-                        Item newItem = new Item
-                        {
-                            Id = NextId,
-                            Name = $"Товар от {DateTime.Now}"
-                        };
+                        Item newItem = new Item { Id = NextId, Name = $"Товар от {DateTime.Now}" };
                         shop.Add(newItem);
                         break;
                     case ConsoleKey.D:
