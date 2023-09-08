@@ -1,0 +1,15 @@
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.csproj.AssemblyReference.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.AssemblyInfoInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.AssemblyInfo.cs
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.csproj.CoreCompileInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/bin/Debug/net7.0/WorkOtus12HouseJack
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/bin/Debug/net7.0/WorkOtus12HouseJack.deps.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/bin/Debug/net7.0/WorkOtus12HouseJack.runtimeconfig.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/bin/Debug/net7.0/WorkOtus12HouseJack.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/bin/Debug/net7.0/WorkOtus12HouseJack.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/refint/WorkOtus12HouseJack.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/WorkOtus12HouseJack.genruntimeconfig.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12HouseJack/obj/Debug/net7.0/ref/WorkOtus12HouseJack.dll

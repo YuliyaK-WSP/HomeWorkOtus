@@ -1,0 +1,15 @@
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.csproj.AssemblyReference.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.AssemblyInfoInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.AssemblyInfo.cs
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.csproj.CoreCompileInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/bin/Debug/net7.0/WorkOtus12Librarian
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/bin/Debug/net7.0/WorkOtus12Librarian.deps.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/bin/Debug/net7.0/WorkOtus12Librarian.runtimeconfig.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/bin/Debug/net7.0/WorkOtus12Librarian.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/bin/Debug/net7.0/WorkOtus12Librarian.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/refint/WorkOtus12Librarian.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/WorkOtus12Librarian.genruntimeconfig.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtus12Librarian/obj/Debug/net7.0/ref/WorkOtus12Librarian.dll
