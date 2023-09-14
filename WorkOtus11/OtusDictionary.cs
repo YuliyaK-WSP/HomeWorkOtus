@@ -28,21 +28,24 @@ public class OtusDictionary
         if (count == capacity)
             ResizeArray();
 
-        if (FindIndex(key) != -1)
-            throw new ArgumentException("Элемент с таким ключом уже существует.");
-
-        keys[count] = key;
-        values[count] = value;
+        int index = FindEmptyIndex(key);
+        keys[index] = key;
+        values[index] = value;
         count++;
     }
 
     public string Get(int key)
     {
-        int index = FindIndex(key);
-        if (index != -1)
-            return values[index];
+        int index = FindKeyIndex(key);
 
-        return null;
+        if (index != -1)
+        {
+            return values[index];
+        }
+        else
+        {
+            throw new KeyNotFoundException("Ключ не найден");
+        }
     }
 
     private void ResizeArray()
@@ -51,10 +54,14 @@ public class OtusDictionary
         int[] newKeys = new int[newCapacity];
         string[] newValues = new string[newCapacity];
 
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < capacity; i++)
         {
-            newKeys[i] = keys[i];
-            newValues[i] = values[i];
+            if (values[i] != null)
+            {
+                int newIndex = FindEmptyIndex(keys[i]);
+                newKeys[newIndex] = keys[i];
+                newValues[newIndex] = values[i];
+            }
         }
 
         capacity = newCapacity;
@@ -68,12 +75,30 @@ public class OtusDictionary
         set { Add(key, value); }
     }
 
-    private int FindIndex(int key)
+    private int FindEmptyIndex(int key)
     {
-        for (int i = 0; i < count; i++)
+        int index = key % capacity;
+
+        while (values[index] != null && keys[index] != key)
         {
-            if (keys[i] == key)
-                return i;
+            index = (index + 1) % capacity;
+        }
+
+        return index;
+    }
+
+    private int FindKeyIndex(int key)
+    {
+        int index = key % capacity;
+
+        while (values[index] != null)
+        {
+            if (keys[index] == key)
+            {
+                return index;
+            }
+
+            index = (index + 1) % capacity;
         }
 
         return -1;
