@@ -9,7 +9,7 @@ public class OtusDictionary
     private string[] values;
     private int count; // кол-во значений
     private const int DefaultCapacity = 32;
-    private int capacity; // емкость
+    public int capacity; // емкость
 
     public OtusDictionary()
     {
@@ -81,7 +81,8 @@ public class OtusDictionary
 
         while (values[index] != null && keys[index] != key)
         {
-            index = (index + 1) % capacity;
+            //index = (index + 1) % capacity;
+			ResizeArray();
         }
 
         return index;
