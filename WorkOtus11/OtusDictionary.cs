@@ -81,8 +81,7 @@ public class OtusDictionary
 
         while (values[index] != null && keys[index] != key)
         {
-            //index = (index + 1) % capacity;
-			ResizeArray();
+            ResizeArray();
         }
 
         return index;
@@ -92,14 +91,9 @@ public class OtusDictionary
     {
         int index = key % capacity;
 
-        while (values[index] != null)
+        if (values[index] != null)
         {
-            if (keys[index] == key)
-            {
-                return index;
-            }
-
-            index = (index + 1) % capacity;
+            return index;
         }
 
         return -1;
