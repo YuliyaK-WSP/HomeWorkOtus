@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace WorkOtusSOLID.Interface
 {
-    public interface IUserInput
+    public interface INumberChecker
     {
-        int GetNumberUser();
-
+        bool CheckNumber();
     }
 }

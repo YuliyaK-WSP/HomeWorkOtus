@@ -1,4 +1,5 @@
 ﻿using System;
+using WorkOtusSOLID.Interface;
 
 namespace WorkOtusSOLID
 {
@@ -6,7 +7,13 @@ namespace WorkOtusSOLID
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int minNumber = 1;
+            int maxNumber = 10;
+			int attemptCount = 3;
+			IGameSetting gameSetting = new GameSetting (minNumber,maxNumber,attemptCount);
+            Game game = new Game(gameSetting);
+            game.Start();
+            //Console.WriteLine("Hello World!");
         }
     }
 }

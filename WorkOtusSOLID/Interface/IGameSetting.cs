@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace WorkOtusSOLID.Interface
 {
-    public interface IUserInput
+    public interface IGameSetting
     {
-        int GetNumberUser();
-
+        int MinNumber { get; }
+        int MaxNumber { get; }
+		int AttemptCount{get;}
     }
 }
