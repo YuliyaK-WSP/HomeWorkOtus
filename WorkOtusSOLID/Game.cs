@@ -10,6 +10,7 @@ namespace WorkOtusSOLID
     public class Game
     {
         private readonly IGameSetting _gameSetting;
+		private RandomNumberGenerator randomNumberGenerator;
         private int _targetNumber;
         private int _attemptCount;
 
@@ -21,7 +22,8 @@ namespace WorkOtusSOLID
 
         public void Start()
         {
-            _targetNumber = GenerateNumber();
+			randomNumberGenerator = new RandomNumberGenerator();
+            _targetNumber = randomNumberGenerator.GenerateNumber(_gameSetting.MinNumber,_gameSetting.MaxNumber);
             Console.WriteLine($"Угадайте число! У вас {_gameSetting.AttemptCount} попыток");
 
             while (true)
@@ -54,10 +56,6 @@ namespace WorkOtusSOLID
 			Console.WriteLine("Игра завершена!");
         }
 
-        private int GenerateNumber()
-        {
-            Random random = new Random();
-            return random.Next(_gameSetting.MinNumber, _gameSetting.MaxNumber);
-        }
+        
     }
 }
