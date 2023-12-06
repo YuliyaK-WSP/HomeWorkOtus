@@ -10,7 +10,7 @@ namespace WorkOtusSOLID
     public class Game : IGame
     {
         private readonly IGameSetting _gameSetting;
-		private RandomNumberGenerator randomNumberGenerator;
+		private IRandomNumberGenerator _randomNumberGenerator;
         private int _targetNumber;
         private int _attemptCount;
 		private readonly IUserInput _userInput;

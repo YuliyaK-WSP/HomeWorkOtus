@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Security.Cryptography;
+using System;
 using WorkOtusSOLID.Interface;
 
 namespace WorkOtusSOLID
@@ -11,7 +12,9 @@ namespace WorkOtusSOLID
             int maxNumber = 10;
 			int attemptCount = 3;
 			IGameSetting gameSetting = new GameSetting (minNumber,maxNumber,attemptCount);
-            Game game = new Game(gameSetting);
+			IRandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
+			IUserInput userInput = new UserInput();
+            Game game = new Game(gameSetting,randomNumberGenerator,userInput);
             game.Start();
             //Console.WriteLine("Hello World!");
         }
