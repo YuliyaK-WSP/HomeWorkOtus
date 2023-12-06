@@ -7,7 +7,7 @@ using WorkOtusSOLID.Interface;
 
 namespace WorkOtusSOLID
 {
-    public class Game
+    public class Game : IGame
     {
         private readonly IGameSetting _gameSetting;
 		private RandomNumberGenerator randomNumberGenerator;
