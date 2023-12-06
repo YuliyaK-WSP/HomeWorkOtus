@@ -16,7 +16,6 @@ namespace WorkOtusSOLID
 			IUserInput userInput = new UserInput();
             Game game = new Game(gameSetting,randomNumberGenerator,userInput);
             game.Start();
-            //Console.WriteLine("Hello World!");
         }
     }
 }
