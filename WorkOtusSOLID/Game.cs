@@ -13,17 +13,19 @@ namespace WorkOtusSOLID
 		private RandomNumberGenerator randomNumberGenerator;
         private int _targetNumber;
         private int _attemptCount;
+		private readonly IUserInput _userInput;
 
-        public Game(IGameSetting gameSetting)
+        public Game(IGameSetting gameSetting, IRandomNumberGenerator randomNumberGenerator, IUserInput userInput)
         {
             _gameSetting = gameSetting;
             _attemptCount = 0;
+			 _randomNumberGenerator = randomNumberGenerator;
+			_userInput = userInput;
         }
 
         public void Start()
         {
-			randomNumberGenerator = new RandomNumberGenerator();
-            _targetNumber = randomNumberGenerator.GenerateNumber(_gameSetting.MinNumber,_gameSetting.MaxNumber);
+            _targetNumber = _randomNumberGenerator.GenerateNumber(_gameSetting.MinNumber,_gameSetting.MaxNumber);
             Console.WriteLine($"Угадайте число! У вас {_gameSetting.AttemptCount} попыток");
 
             while (true)
@@ -36,7 +38,7 @@ namespace WorkOtusSOLID
 				}
 				Console.WriteLine($"Попытка № {_attemptCount}.");
                 Console.WriteLine("Введите число");
-                int numberUser = Convert.ToInt32(Console.ReadLine());
+                int numberUser = _userInput.GetNumberUser();
                 if (_targetNumber == numberUser)
                 {
                     Console.WriteLine(
