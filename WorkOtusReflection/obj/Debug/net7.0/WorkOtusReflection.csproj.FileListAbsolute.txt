@@ -1,0 +1,17 @@
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.csproj.AssemblyReference.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.AssemblyInfoInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.AssemblyInfo.cs
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.csproj.CoreCompileInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/WorkOtusReflection
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/WorkOtusReflection.deps.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/WorkOtusReflection.runtimeconfig.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/WorkOtusReflection.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/WorkOtusReflection.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/refint/WorkOtusReflection.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.genruntimeconfig.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/ref/WorkOtusReflection.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.csproj.CopyComplete
