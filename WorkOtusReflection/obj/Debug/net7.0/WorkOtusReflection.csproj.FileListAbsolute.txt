@@ -15,3 +15,4 @@
 /Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/ref/WorkOtusReflection.dll
 /Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/obj/Debug/net7.0/WorkOtusReflection.csproj.CopyComplete
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/bin/Debug/net7.0/CsvHelper.dll

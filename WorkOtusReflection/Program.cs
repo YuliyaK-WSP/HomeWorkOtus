@@ -13,7 +13,7 @@ namespace WorkOtusReflection
             MySerialize mySerialize = new MySerialize();
             MyDeserialize myDeserialize = new MyDeserialize();
             SerializeNewtonsoft serializeNewtonsoft = new SerializeNewtonsoft();
-			DeserializeNewtonsoft deserializeNewtonsoft = new DeserializeNewtonsoft();
+            DeserializeNewtonsoft deserializeNewtonsoft = new DeserializeNewtonsoft();
             F f = F.Get();
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -37,16 +37,18 @@ namespace WorkOtusReflection
             stopwatch.Stop();
             TimeSpan deserializationTime = stopwatch.Elapsed;
 
-			stopwatch.Restart();
+            stopwatch.Restart();
             f = deserializeNewtonsoft.StartDeserialize(json);
             stopwatch.Stop();
+            CsvFileClass.LoadFromCsvFile("../WorkOtusReflection/csv/file.csv");
+
             TimeSpan newtonsoftJsondeserializationTime = stopwatch.Elapsed;
             Result(
                 serializationTime,
                 consoleOutputTime,
                 newtonsoftJsonSerializationTime,
                 deserializationTime,
-				newtonsoftJsondeserializationTime
+                newtonsoftJsondeserializationTime
             );
         }
     }

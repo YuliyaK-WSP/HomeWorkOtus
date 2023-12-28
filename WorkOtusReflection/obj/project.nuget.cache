@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tDcfCzoVi4POqq1ZZdcgBq1vVrc26SklVnJfV7nhbSR5DqmfZMrE8mmcc1NHQZAWInjafHus4s3wUnz9jdnUbQ==",
+  "dgSpecHash": "pYQgxEViCd/481Y1UbG5q9RftQTu8W7GiG2MROZeS6Qhgd3+WAtx6rlv2+KbWgQ8o2U6pCoBOzptaaYFJukddg==",
   "success": true,
   "projectFilePath": "/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusReflection/WorkOtusReflection.csproj",
   "expectedPackageFiles": [
+    "/Users/yulia/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
     "/Users/yulia/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
