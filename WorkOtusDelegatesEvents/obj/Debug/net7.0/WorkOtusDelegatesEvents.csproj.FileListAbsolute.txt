@@ -1,0 +1,15 @@
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.csproj.AssemblyReference.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.AssemblyInfoInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.AssemblyInfo.cs
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.csproj.CoreCompileInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/bin/Debug/net7.0/WorkOtusDelegatesEvents
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/bin/Debug/net7.0/WorkOtusDelegatesEvents.deps.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/bin/Debug/net7.0/WorkOtusDelegatesEvents.runtimeconfig.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/bin/Debug/net7.0/WorkOtusDelegatesEvents.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/bin/Debug/net7.0/WorkOtusDelegatesEvents.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/refint/WorkOtusDelegatesEvents.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/WorkOtusDelegatesEvents.genruntimeconfig.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusDelegatesEvents/obj/Debug/net7.0/ref/WorkOtusDelegatesEvents.dll
