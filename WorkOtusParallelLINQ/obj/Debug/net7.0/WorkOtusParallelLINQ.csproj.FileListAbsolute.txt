@@ -1,0 +1,15 @@
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.csproj.AssemblyReference.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.AssemblyInfoInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.AssemblyInfo.cs
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.csproj.CoreCompileInputs.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/bin/Debug/net7.0/WorkOtusParallelLINQ
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/bin/Debug/net7.0/WorkOtusParallelLINQ.deps.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/bin/Debug/net7.0/WorkOtusParallelLINQ.runtimeconfig.json
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/bin/Debug/net7.0/WorkOtusParallelLINQ.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/bin/Debug/net7.0/WorkOtusParallelLINQ.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/refint/WorkOtusParallelLINQ.dll
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.pdb
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/WorkOtusParallelLINQ.genruntimeconfig.cache
+/Users/yulia/Desktop/Progect/HomeWorkOtus/WorkOtusParallelLINQ/obj/Debug/net7.0/ref/WorkOtusParallelLINQ.dll
